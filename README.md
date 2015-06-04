@@ -2,7 +2,7 @@
 
 Spring 2015 NuPIC Hackathon
 
-> **This hack is a shameless rip-off of [Austin Marshall's](http://github.com/oxtopus) [Shake Hack](https://github.com/oxtopus/shakehack) from the 2014 Fall NuPIC Hackathon.
+> **This hack is a shameless rip-off of [Austin Marshall's](http://github.com/oxtopus) [Shake Hack](https://github.com/oxtopus/shakehack) from the 2014 Fall NuPIC Hackathon.**
 
 - Colors map to anomaly score
   - Red: High anomaly score
