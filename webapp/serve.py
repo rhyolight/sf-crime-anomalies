@@ -38,8 +38,7 @@ class Application(object):
         data = (open(path)
                 .read()
                 .replace("https://maps.googleapis.com/maps/api/js?key=API_KEY",
-                         "https://maps.googleapis.com/maps/api/js?key=%s" % (
-                            os.environ["API_KEY"])))
+                         "https://maps.googleapis.com/maps/api/js"))
 
       except Exception:
         return not_found(start_response)

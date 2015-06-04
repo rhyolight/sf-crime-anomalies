@@ -16,7 +16,7 @@ WINDOWSIZE = 30 # Number of samples over which to calculate average
 earthquakes = deque()
 
 # Need statistics to recompute coords
-with open("usgs.csv") as inp:
+with open("crimes.csv") as inp:
   csvin = csv.reader(inp)
 
   Earthquake = namedtuple("Earthquake", next(csvin))
